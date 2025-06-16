@@ -44,6 +44,6 @@ Update the following variables in the script:
 
 asset_usd_path = "Path/to/original/file.usd"  
 source_prim_path = "/World/MainXform"  
-save_as_path = None  # or "Path/to/converted/file.usd"  
+save_as_path = None or "Path/to/converted/file.usd"  #None will overwrite original usd file thats defined in asset_usd_path 
 
 Then execute the script inside a Python-capable environment where Isaac Sim and IsaacLab are available (Omniverse Kit-compatible).
